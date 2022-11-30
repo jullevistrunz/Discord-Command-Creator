@@ -1,3 +1,3 @@
-# Discord-Command-Creator
+# Discord Command Creator
 
 Create your own Discord `/` Commands

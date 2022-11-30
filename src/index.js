@@ -15,7 +15,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 client.once('ready', () => {
   console.log(`Bot tag: ${client.user.tag}`)
   client.user.setActivity('Discord Command Creator', {
-    type: ActivityType.Custom,
+    type: ActivityType.Playing,
   })
 })
 

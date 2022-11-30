@@ -1,4 +1,5 @@
 @echo off
 title Custom Command Creator
-node src/build.js
+cd src
+node build.js
 PAUSE

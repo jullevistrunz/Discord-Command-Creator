@@ -1,2 +1,4 @@
 node_modules 
 *.min.js
+/src/commands
+/src/globalCommands

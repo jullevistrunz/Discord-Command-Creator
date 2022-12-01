@@ -31,7 +31,7 @@ for (const file of commandFiles) {
   if ('data' in command && 'execute' in command) {
     client.commands.set(command.data.name, command)
   } else {
-    console.log(
+    console.warn(
       `[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`
     )
   }
@@ -48,7 +48,7 @@ for (const file of globalCommandFiles) {
   if ('data' in command && 'execute' in command) {
     client.commands.set(command.data.name, command)
   } else {
-    console.log(
+    console.warn(
       `[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`
     )
   }

@@ -1,6 +1,6 @@
 # Discord Command Creator
 
-Create your own Discord `/` Commands
+Create your own Discord `/` Commands using Discord.js
 
 
 ## How to use it
@@ -61,7 +61,7 @@ node build.js
   "guildId": "YOUR_SERVER_ID"
 }
 ```
-- You can find `token` and `clientId` in [Discord Developer Port](https://discord.com/developers/applications)
+- You can find `token` and `clientId` in the [Discord Developer Portal](https://discord.com/developers/applications)
 - Copy `guildId` by right-clicking your server on Discord (you need to have developer mode enabled)
 
 ---
